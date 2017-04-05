@@ -1,0 +1,5 @@
+D:\visual studio\projects\database form\database form\bin\Debug\database form.exe.config
+D:\visual studio\projects\database form\database form\obj\Debug\database form.csprojResolveAssemblyReference.cache
+D:\visual studio\projects\database form\database form\obj\Debug\database_form.Form1.resources
+D:\visual studio\projects\database form\database form\obj\Debug\database_form.Properties.Resources.resources
+D:\visual studio\projects\database form\database form\obj\Debug\database form.csproj.GenerateResource.Cache
