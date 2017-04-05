@@ -26,5 +26,39 @@ namespace database_form
         {
 
         }
+
+
+
+        private void zoekknop_Click(object sender, EventArgs e)
+        {
+            string locatie = ComboLoc.SelectedText;
+            string datumvan = TextVan.Text;
+            string datumtot = TextTot.Text;
+            string activiteit = ComboZoek.SelectedText;
+
+            try
+            {
+                StringBuilder queryloc = new StringBuilder();
+                queryloc.Append("http://maps.google.com/maps?q=");
+
+                if (locatie != string.Empty)
+                    queryloc.Append(locatie + ",+");
+                if (datumvan != string.Empty)
+                    queryloc.Append(datumvan + ",+");
+                if (datumtot != string.Empty)
+                    queryloc.Append(datumtot + ",+");
+                if (activiteit != string.Empty)
+                    queryloc.Append(activiteit + ",+");
+
+                webBrowser1.Navigate(queryloc.ToString());
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString(), "Er is een fout opgetreden");
+            }
+        }
+
+
     }
 }
