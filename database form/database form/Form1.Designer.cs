@@ -149,9 +149,8 @@
             this.ComboZoek.FormattingEnabled = true;
             this.ComboZoek.Items.AddRange(new object[] {
             "Markten",
-            "Kerken",
             "Sportactiviteiten",
-            "Monumenten"});
+            "Zalen"});
             this.ComboZoek.Location = new System.Drawing.Point(310, 39);
             this.ComboZoek.Name = "ComboZoek";
             this.ComboZoek.Size = new System.Drawing.Size(121, 24);
