@@ -19,6 +19,7 @@
             }
             base.Dispose(disposing);
         }
+        /// testing
 
         #region Windows Form Designer generated code
 
@@ -29,6 +30,7 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.aLabel = new System.Windows.Forms.Label();
             this.Zoekknop = new System.Windows.Forms.Button();
             this.LabelDatum = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -40,6 +42,7 @@
             this.TextVan = new System.Windows.Forms.TextBox();
             this.LabelIkzoek = new System.Windows.Forms.Label();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -54,6 +57,8 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.button1);
+            this.splitContainer1.Panel1.Controls.Add(this.aLabel);
             this.splitContainer1.Panel1.Controls.Add(this.Zoekknop);
             this.splitContainer1.Panel1.Controls.Add(this.LabelDatum);
             this.splitContainer1.Panel1.Controls.Add(this.label4);
@@ -73,6 +78,15 @@
             this.splitContainer1.Size = new System.Drawing.Size(1481, 529);
             this.splitContainer1.SplitterDistance = 493;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // aLabel
+            // 
+            this.aLabel.AutoSize = true;
+            this.aLabel.Location = new System.Drawing.Point(53, 477);
+            this.aLabel.Name = "aLabel";
+            this.aLabel.Size = new System.Drawing.Size(51, 17);
+            this.aLabel.TabIndex = 11;
+            this.aLabel.Text = "aLabel";
             // 
             // Zoekknop
             // 
@@ -149,8 +163,9 @@
             this.ComboZoek.FormattingEnabled = true;
             this.ComboZoek.Items.AddRange(new object[] {
             "Markten",
+            "Kerken",
             "Sportactiviteiten",
-            "Zalen"});
+            "Monumenten"});
             this.ComboZoek.Location = new System.Drawing.Point(310, 39);
             this.ComboZoek.Name = "ComboZoek";
             this.ComboZoek.Size = new System.Drawing.Size(121, 24);
@@ -191,6 +206,15 @@
             this.webBrowser1.Size = new System.Drawing.Size(984, 529);
             this.webBrowser1.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(310, 462);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -222,6 +246,8 @@
         private System.Windows.Forms.TextBox TextTot;
         private System.Windows.Forms.TextBox TextVan;
         private System.Windows.Forms.Button Zoekknop;
+        private System.Windows.Forms.Label aLabel;
+        private System.Windows.Forms.Button button1;
     }
 }
 

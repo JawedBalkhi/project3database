@@ -7,3 +7,12 @@ D:\visual studio\projects\database form\database form\bin\Debug\database form.ex
 D:\visual studio\projects\database form\database form\bin\Debug\database form.pdb
 D:\visual studio\projects\database form\database form\obj\Debug\database form.exe
 D:\visual studio\projects\database form\database form\obj\Debug\database form.pdb
+C:\Users\F Da Cruz\Git\Project3\project3database-master\database form\database form\bin\Debug\database form.exe.config
+C:\Users\F Da Cruz\Git\Project3\project3database-master\database form\database form\bin\Debug\database form.exe
+C:\Users\F Da Cruz\Git\Project3\project3database-master\database form\database form\bin\Debug\database form.pdb
+C:\Users\F Da Cruz\Git\Project3\project3database-master\database form\database form\obj\Debug\database form.csprojResolveAssemblyReference.cache
+C:\Users\F Da Cruz\Git\Project3\project3database-master\database form\database form\obj\Debug\database_form.Form1.resources
+C:\Users\F Da Cruz\Git\Project3\project3database-master\database form\database form\obj\Debug\database_form.Properties.Resources.resources
+C:\Users\F Da Cruz\Git\Project3\project3database-master\database form\database form\obj\Debug\database form.csproj.GenerateResource.Cache
+C:\Users\F Da Cruz\Git\Project3\project3database-master\database form\database form\obj\Debug\database form.exe
+C:\Users\F Da Cruz\Git\Project3\project3database-master\database form\database form\obj\Debug\database form.pdb
